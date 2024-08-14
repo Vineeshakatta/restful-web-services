@@ -18,7 +18,6 @@ public class LimitsController {
 	public Limits retrieveLimits() {
 		// getting values from @ConfigurationProperties application properties
 		return new Limits(limitServiceconfiguration.getMinimum(), limitServiceconfiguration.getMaximum());
-//		return new Limits(1, 1000);
 	}
 
 }
